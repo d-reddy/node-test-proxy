@@ -1,0 +1,18 @@
+{
+  "name": "node-test-proxy",
+  "version": "0.0.0",
+  "description": "Act as a proxy for testing",
+  "main": "server.js",
+  "author": "dreddy",
+  "dependencies": {
+    "mssql": "^3.0.1",
+    "node-linq": "0.0.5",
+    "node-promise": "^0.5.12",
+    "request": "^2.69.0",
+    "request-promise": "^3.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "ISC"
+}
