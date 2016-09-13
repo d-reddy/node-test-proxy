@@ -110,6 +110,9 @@ var server = http.createServer(function (req, res) {
     }
     else {
         res.writeHead(404, {});
+        // Write the response body
+        res.write(JSON.stringify('hit server, but not found'));
+        res.end();
     }
 });
 
